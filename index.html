@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fashion</title>
+    <link rel="stylesheet" href="./styles/normalize.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <header class="page-header">
+      <a class="page-header__logo logo">
+        <span class="visually-hidden">Fashion</span>
+        <svg
+          width="128"
+          height="32"
+          viewBox="0 0 128 32"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg">
+          <rect opacity="0.35" y="22" width="125" height="6" fill="#C9A96E" />
+          <path
+            d="M6.05 23.325C6.81667 23.425 7.54167 23.6667 8.225 24.05V25H0.5V24.05C0.766667 23.9 1.05 23.7667 1.35 23.65C1.65 23.5167 1.96667 23.4083 2.3 23.325V9.175C1.91667 9.09167 1.575 8.98333 1.275 8.85C0.991667 8.71667 0.733333 8.58333 0.5 8.45V7.5H13.575C13.575 7.83333 13.5583 8.2 13.525 8.6C13.4917 8.98333 13.45 9.38333 13.4 9.8C13.3667 10.2 13.3167 10.6 13.25 11C13.2 11.3833 13.1417 11.7417 13.075 12.075H12.05L10.9 9.125H6.05V15.7H9.625L10.6 13.975H11.375C11.4917 14.825 11.5417 15.7 11.525 16.6C11.5083 17.5 11.4583 18.325 11.375 19.075H10.6L9.625 17.325H6.05V23.325ZM20.6623 25H14.4873V24.05C14.754 23.8833 15.0373 23.7417 15.3373 23.625C15.654 23.4917 15.9623 23.3917 16.2623 23.325L22.7123 7.2H24.5623L30.8373 23.325C31.1706 23.3917 31.504 23.4917 31.8373 23.625C32.1706 23.7417 32.4623 23.8833 32.7123 24.05V25H24.8873V24.05C25.204 23.9 25.5456 23.7583 25.9123 23.625C26.279 23.4917 26.629 23.3917 26.9623 23.325L25.5123 19.35H19.9623L18.4873 23.325C19.254 23.425 19.979 23.6667 20.6623 24.05V25ZM20.5623 17.725H24.9873L23.3623 12.95L22.8873 10.8H22.8373L22.2873 13L20.5623 17.725ZM39.1252 22.925C39.3085 23.1083 39.5669 23.2833 39.9002 23.45C40.2335 23.6 40.6752 23.675 41.2252 23.675C42.1419 23.675 42.9002 23.4417 43.5002 22.975C44.1169 22.4917 44.4252 21.825 44.4252 20.975C44.4252 20.3583 44.2252 19.8417 43.8252 19.425C43.4419 19.0083 42.9502 18.625 42.3502 18.275C41.7502 17.925 41.1085 17.5833 40.4252 17.25C39.7419 16.9 39.1002 16.4917 38.5002 16.025C37.9002 15.5583 37.4002 15.0083 37.0002 14.375C36.6169 13.725 36.4252 12.925 36.4252 11.975C36.4252 11.1583 36.5752 10.45 36.8752 9.85C37.1752 9.25 37.5835 8.75833 38.1002 8.375C38.6335 7.975 39.2585 7.68333 39.9752 7.5C40.6919 7.3 41.4669 7.2 42.3002 7.2C43.3169 7.2 44.2585 7.275 45.1252 7.425C46.0085 7.55833 46.8002 7.775 47.5002 8.075C47.4835 8.40833 47.4502 8.79167 47.4002 9.225C47.3669 9.65833 47.3169 10.0917 47.2502 10.525C47.1835 10.9417 47.1085 11.3417 47.0252 11.725C46.9585 12.0917 46.8919 12.4 46.8252 12.65H45.8002L44.6502 9.225C44.4502 9.125 44.1502 9.03333 43.7502 8.95C43.3669 8.86667 42.9669 8.825 42.5502 8.825C41.8502 8.825 41.2585 9.00833 40.7752 9.375C40.2919 9.74167 40.0502 10.275 40.0502 10.975C40.0502 11.6083 40.2502 12.15 40.6502 12.6C41.0502 13.0333 41.5502 13.4333 42.1502 13.8C42.7502 14.1667 43.4002 14.5333 44.1002 14.9C44.8169 15.25 45.4752 15.6583 46.0752 16.125C46.6752 16.5917 47.1752 17.1417 47.5752 17.775C47.9752 18.3917 48.1752 19.1583 48.1752 20.075C48.1752 21.7417 47.6085 23.0333 46.4752 23.95C45.3585 24.85 43.7085 25.3 41.5252 25.3C40.9919 25.3 40.4502 25.2667 39.9002 25.2C39.3669 25.1333 38.8585 25.0417 38.3752 24.925C37.8919 24.8083 37.4585 24.6833 37.0752 24.55C36.7085 24.4167 36.4335 24.275 36.2502 24.125C36.2669 23.7417 36.3085 23.3333 36.3752 22.9C36.4419 22.45 36.5085 22.0083 36.5752 21.575C36.6585 21.125 36.7419 20.7 36.8252 20.3C36.9085 19.9 36.9919 19.55 37.0752 19.25H38.1002L39.1252 22.925ZM59.7156 25H52.1406V24.05C52.424 23.9 52.749 23.7583 53.1156 23.625C53.499 23.4917 53.8573 23.3917 54.1906 23.325V9.175C53.7906 9.10833 53.4073 9.00833 53.0406 8.875C52.674 8.74167 52.374 8.6 52.1406 8.45V7.5H59.7156V8.45C59.4656 8.61667 59.1823 8.76667 58.8656 8.9C58.5656 9.03333 58.2573 9.125 57.9406 9.175V15.225H64.5656V9.175C64.199 9.10833 63.8656 9.00833 63.5656 8.875C63.2823 8.74167 63.024 8.6 62.7906 8.45V7.5H70.3656V8.45C70.0823 8.63333 69.7573 8.78333 69.3906 8.9C69.024 9.01667 68.6656 9.10833 68.3156 9.175V23.325C68.699 23.3917 69.0656 23.4917 69.4156 23.625C69.7823 23.7583 70.099 23.9 70.3656 24.05V25H62.7906V24.05C63.0406 23.9 63.3156 23.7583 63.6156 23.625C63.9156 23.4917 64.2323 23.3917 64.5656 23.325V16.85H57.9406V23.325C58.274 23.3917 58.5823 23.4833 58.8656 23.6C59.149 23.7167 59.4323 23.8667 59.7156 24.05V25ZM81.9045 25H74.1045V24.05C74.7712 23.6833 75.4462 23.4417 76.1295 23.325V9.175C75.7962 9.125 75.4462 9.03333 75.0795 8.9C74.7128 8.76667 74.3878 8.61667 74.1045 8.45V7.5H81.9045V8.45C81.6045 8.63333 81.2712 8.79167 80.9045 8.925C80.5545 9.04167 80.2128 9.125 79.8795 9.175V23.325C80.2128 23.3917 80.5545 23.4833 80.9045 23.6C81.2712 23.7167 81.6045 23.8667 81.9045 24.05V25ZM86.1313 16.25C86.1313 14.95 86.3146 13.75 86.6813 12.65C87.0479 11.5333 87.5896 10.575 88.3063 9.775C89.0229 8.95833 89.9063 8.325 90.9563 7.875C92.0063 7.425 93.2146 7.2 94.5813 7.2C95.9479 7.2 97.1563 7.425 98.2063 7.875C99.2563 8.325 100.131 8.95833 100.831 9.775C101.548 10.575 102.09 11.5333 102.456 12.65C102.823 13.75 103.006 14.95 103.006 16.25C103.006 17.55 102.823 18.7583 102.456 19.875C102.09 20.975 101.548 21.9333 100.831 22.75C100.131 23.55 99.2563 24.175 98.2063 24.625C97.1563 25.075 95.9479 25.3 94.5813 25.3C93.2146 25.3 92.0063 25.075 90.9563 24.625C89.9063 24.175 89.0229 23.55 88.3063 22.75C87.5896 21.9333 87.0479 20.975 86.6813 19.875C86.3146 18.7583 86.1313 17.55 86.1313 16.25ZM90.3813 16.25C90.3813 17.3167 90.4646 18.3083 90.6313 19.225C90.7979 20.125 91.0563 20.9083 91.4062 21.575C91.7729 22.225 92.2313 22.7417 92.7813 23.125C93.3479 23.4917 94.0229 23.675 94.8063 23.675C95.5229 23.675 96.1313 23.4917 96.6313 23.125C97.1313 22.7417 97.5396 22.225 97.8563 21.575C98.1729 20.9083 98.3979 20.125 98.5313 19.225C98.6813 18.3083 98.7563 17.3167 98.7563 16.25C98.7563 15.1833 98.6729 14.2 98.5063 13.3C98.3563 12.3833 98.1063 11.6 97.7563 10.95C97.4229 10.2833 96.9729 9.76667 96.4063 9.4C95.8563 9.01667 95.1813 8.825 94.3813 8.825C93.6146 8.825 92.9729 9.01667 92.4563 9.4C91.9396 9.76667 91.5229 10.2833 91.2063 10.95C90.9063 11.6 90.6896 12.3833 90.5563 13.3C90.4396 14.2 90.3813 15.1833 90.3813 16.25ZM118.754 7.5H124.954V8.45C124.637 8.7 124.287 8.925 123.904 9.125C123.521 9.30833 123.162 9.45 122.829 9.55V25.3H120.704L111.879 12.55L110.879 10.625H110.804L111.029 12.625V23.05C111.362 23.1333 111.729 23.275 112.129 23.475C112.546 23.6583 112.896 23.85 113.179 24.05V25H107.004V24.05C107.304 23.85 107.629 23.6667 107.979 23.5C108.346 23.3167 108.721 23.1667 109.104 23.05V9.4C108.771 9.26667 108.437 9.11667 108.104 8.95C107.771 8.78333 107.471 8.60833 107.204 8.425V7.5H112.604L119.779 17.9L120.929 20.05H121.029L120.904 17.9V9.55C120.504 9.41667 120.112 9.25833 119.729 9.075C119.362 8.875 119.037 8.66667 118.754 8.45V7.5Z"
+            fill="#171717" />
+        </svg>
+      </a>
+      <nav class="page-header__nav">
+        <ul class="page-header__menu">
+          <li><a class="active">Home</a></li>
+          <li><a href="#">Recipes</a></li>
+          <li><a href="#">Article</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Purchase</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="promo">
+        <div class="promo__wrapper container">
+          <span class="promo__type">Vehicle</span>
+          <h2 class="promo__title">
+            One of Saturn's largest rings may be newer than anyone
+          </h2>
+          <div class="promo__container">
+            <span class="promo__date">June 6, 2019</span>
+            <span class="promo__author"><span>By </span>Rickie Baroch</span>
+            <span class="promo__comments">4 comments</span>
+          </div>
+        </div>
+      </section>
+      <section class="content container">
+        <div class="content__left">
+          <div class="content__wrapper">
+            <div class="card">
+              <img
+                class="card__img"
+                src="imgs/pictures_left/1.jpg"
+                alt="Фото статьи" />
+              <span class="card__type">Tourism</span>
+              <h3 class="card__title">
+                One of Saturn's largest rings may be newer than anyone
+              </h3>
+              <div class="card__data">
+                <span class="card__date">June 6, 2019</span>
+                <span class="card__author"><span>By </span>Rickie Baroch</span>
+              </div>
+            </div>
+            <div class="card">
+              <img
+                class="card__img"
+                src="imgs/pictures_left/2.jpg"
+                alt="Фото статьи" />
+              <span class="card__type">Sport</span>
+              <h3 class="card__title">
+                One of Saturn’s largest rings may be newer than anyone
+              </h3>
+              <div class="card__data">
+                <span class="card__date">June 6, 2019</span>
+                <span class="card__author"><span>By </span>Rickie Baroch</span>
+              </div>
+            </div>
+            <div class="card">
+              <img
+                class="card__img"
+                src="imgs/pictures_left/3.jpg"
+                alt="Фото статьи" />
+              <span class="card__type">Fashion</span>
+              <h3 class="card__title">
+                One of Saturn’s largest rings may be newer than anyone
+              </h3>
+              <div class="card__data">
+                <span class="card__date">June 6, 2019</span>
+                <span class="card__author"><span>By </span>Rickie Baroch</span>
+              </div>
+            </div>
+            <div class="card">
+              <img
+                class="card__img"
+                src="imgs/pictures_left/4.jpg"
+                alt="Фото статьи" />
+              <span class="card__type">Clothes</span>
+              <h3 class="card__title">
+                One of Saturn’s largest rings may be newer than anyone
+              </h3>
+              <div class="card__data">
+                <span class="card__date">June 6, 2019</span>
+                <span class="card__author"><span>By </span>Rickie Baroch</span>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card__img" src="imgs/pictures_left/5.jpg" alt="" />
+              <span class="card__type">Clothes</span>
+              <h3 class="card__title">
+                One of Saturn’s largest rings may be newer than anyone
+              </h3>
+              <div class="card__data">
+                <span class="card__date">June 6, 2019</span>
+                <span class="card__author">By Rickie Baroch</span>
+              </div>
+            </div>
+            <div class="card">
+              <img
+                class="card__img"
+                src="imgs/pictures_left/6.jpg"
+                alt="Фото статьи" />
+              <span class="card__type">Fashion</span>
+              <h3 class="card__title">
+                One of Saturn’s largest rings may be newer than anyone
+              </h3>
+              <div class="card__data">
+                <span class="card__date">June 6, 2019</span>
+                <span class="card__author"><span>By </span>Rickie Baroch</span>
+              </div>
+            </div>
+            <div class="card card--full">
+              <img
+                class="card__img"
+                src="imgs/pictures_left/7.jpg"
+                alt="Фото статьи" />
+              <div class="card__wrapper">
+                <span class="card__type">Summer</span>
+                <h3 class="card__title">
+                  One of Saturn’s largest rings may be newer than anyone
+                </h3>
+                <div class="card__data">
+                  <span class="card__date">June 6, 2019</span>
+                  <span class="card__author"
+                    ><span>By </span>Rickie Baroch</span
+                  >
+                  <span class="card__comments">6 comments</span>
+                </div>
+
+                <span class="card__description"
+                  >Sed ut perspiciatis unde omnis iste natus error sit
+                  voluptatem accusantium doloremque laudantium, totam rem sed ut
+                  perspiciatis unde omnis iste natus error sit voluptatem
+                  accusantium doloremque laudantium, totam rem</span
+                >
+              </div>
+            </div>
+            <div class="card">
+              <img
+                class="card__img"
+                src="imgs/pictures_left/8.jpg"
+                alt="Фото статьи" />
+              <span class="card__type">Autumn</span>
+              <h3 class="card__title">
+                One of Saturn’s largest rings may be newer than anyone
+              </h3>
+              <div class="card__data">
+                <span class="card__date">June 6, 2019</span>
+                <span class="card__author"><span>By </span>Rickie Baroch</span>
+              </div>
+            </div>
+            <div class="card">
+              <img
+                class="card__img"
+                src="imgs/pictures_left/9.jpg"
+                alt="Фото статьи" />
+              <span class="card__type">Clothes</span>
+              <h3 class="card__title">
+                One of Saturn’s largest rings may be newer than anyone
+              </h3>
+              <div class="card__data">
+                <span class="card__date">June 6, 2019</span>
+                <span class="card__author"><span>By </span>Rickie Baroch</span>
+              </div>
+            </div>
+            <div class="card">
+              <img
+                class="card__img"
+                src="imgs/pictures_left/10.jpg"
+                alt="Фото статьи" />
+              <span class="card__type">Summer</span>
+              <h3 class="card__title">
+                One of Saturn’s largest rings may be newer than anyone
+              </h3>
+              <div class="card__data">
+                <span class="card__date">June 6, 2019</span>
+                <span class="card__author"><span>By </span>Rickie Baroch</span>
+              </div>
+            </div>
+            <div class="card">
+              <img
+                class="card__img"
+                src="imgs/pictures_left/11.jpg"
+                alt="Фото статьи" />
+              <span class="card__type">Summer</span>
+              <h3 class="card__title">
+                One of Saturn’s largest rings may be newer than anyone
+              </h3>
+              <div class="card__data">
+                <span class="card__date">June 6, 2019</span>
+                <span class="card__author"><span>By </span>Rickie Baroch</span>
+              </div>
+            </div>
+          </div>
+          <section class="pagination" id="pagination">
+            <nav class="paginaton__area">
+              <ul class="pagination__list">
+                <li class="pagination__item">
+                  <a class="pagination__link pagination__link--prev" href="#"
+                    >Older Post</a
+                  >
+                </li>
+                <li class="pagination-item">
+                  <a class="pagination-link" href="#">1</a>
+                </li>
+                <li class="pagination-item">
+                  <a class="pagination-link" href="#">2</a>
+                </li>
+                <li class="pagination-item">
+                  <a class="pagination-link" href="#">3</a>
+                </li>
+                <li class="pagination-item">
+                  <a class="pagination-link" href="#">...</a>
+                </li>
+                <li class="pagination-item">
+                  <a class="pagination-link" href="#">8</a>
+                </li>
+                <li class="pagination-item">
+                  <a class="pagination-link pagination__link--post" href="#"
+                    >Next Post</a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </section>
+        </div>
+        <aside class="content__right sidebar">
+          <section class="about">
+            <h2 class="sidebar__title">About the author</h2>
+            <img
+              class="about__img"
+              src="imgs/pictures_right/1_1.jpg"
+              alt="Фото статьи" />
+            <b class="about__author">Kate Willems</b>
+            <span class="about__prof">Food & cooking bloger</span>
+            <p class="about__desc">
+              Hi, I'm Sonia. Cooking is the way I express my creative side to
+              the world. Welcome to my Kitchen Corner on…
+            </p>
+            <a class="about__more" href="#">Continue reading</a>
+          </section>
+          <section class="featured">
+            <h2 class="sidebar__title">Featured posts</h2>
+            <div class="card card--small">
+              <img
+                class="featured__img"
+                src="imgs/pictures_right/2_2.jpg"
+                alt="Фото статьи" />
+              <span class="featured__type">Jeans</span>
+              <h3 class="card__title">
+                One of Saturn’s largest rings may be newer than anyone
+              </h3>
+              <div class="card__data">
+                <span class="card__date">June 6, 2019</span>
+                <span class="card__author"><span>By </span>Rickie Baroch</span>
+              </div>
+            </div>
+            <div class="card card--small">
+              <img
+                class="featured__img"
+                src="imgs/pictures_right/3_3.jpg"
+                alt="Фото статьи" />
+              <span class="featured__type">City</span>
+              <h3 class="card__title">
+                One of Saturn’s largest rings may be newer than anyone
+              </h3>
+              <div class="card__data">
+                <span class="card__date">June 6, 2019</span>
+                <span class="card__author"><span>By </span>Rickie Baroch</span>
+              </div>
+            </div>
+            <div class="card card--small">
+              <img
+                class="featured__img"
+                src="imgs/pictures_right/4_4.jpg"
+                alt="Фото статьи" />
+              <span class="featured__type">Photography</span>
+              <h3 class="card__title">
+                One of Saturn’s largest rings may be newer than anyone
+              </h3>
+              <div class="card__data">
+                <span class="card__date">June 6, 2019</span>
+                <span class="card__author"><span>By </span>Rickie Baroch</span>
+              </div>
+            </div>
+          </section>
+          <section class="categories">
+            <h2 class="categories__title">Categories</h2>
+            <table class="categories__table">
+              <tr>
+                <td>Fashion</td>
+                <td>(23)</td>
+              </tr>
+              <tr>
+                <td>Style & clothes</td>
+                <td>(7)</td>
+              </tr>
+              <tr>
+                <td>Minimalism</td>
+                <td>(16)</td>
+              </tr>
+              <tr>
+                <td>Black & White</td>
+                <td>(5)</td>
+              </tr>
+              <tr>
+                <td>Modern clothes</td>
+                <td>(12)</td>
+              </tr>
+            </table>
+          </section>
+          <section class="socials">
+            <h2 class="sidebar__title">Social media</h2>
+            <div class="socials__list">
+              <div class="socials__card">
+                <svg
+                  width="11"
+                  height="20"
+                  viewBox="0 0 11 20"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M10.5858 0.00416134L7.94737 0C4.98322 0 3.06766 1.9319 3.06766 4.92203V7.19141H0.414863C0.18563 7.19141 0 7.37409 0 7.59943V10.8875C0 11.1128 0.185842 11.2953 0.414863 11.2953H3.06766V19.5922C3.06766 19.8175 3.25329 20 3.48252 20H6.94366C7.17289 20 7.35852 19.8173 7.35852 19.5922V11.2953H10.4603C10.6895 11.2953 10.8751 11.1128 10.8751 10.8875L10.8764 7.59943C10.8764 7.49124 10.8326 7.38762 10.7549 7.31105C10.6772 7.23448 10.5714 7.19141 10.4613 7.19141H7.35852V5.26763C7.35852 4.34298 7.58267 3.87358 8.808 3.87358L10.5853 3.87295C10.8144 3.87295 11 3.69027 11 3.46514V0.411972C11 0.187052 10.8146 0.00457747 10.5858 0.00416134Z"
+                    fill="#5A5A5A" />
+                </svg>
+                <span class="socials__info">
+                  <span class="socials__count">32k</span>
+                  <span>likes</span>
+                </span>
+              </div>
+              <div class="socials__card">
+                <svg
+                  width="15"
+                  height="21"
+                  viewBox="0 0 15 21"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M13.0546 2.81762C11.741 1.48267 9.92295 0.747437 7.93556 0.747437C4.89971 0.747437 3.03253 2.06473 2.00076 3.16973C0.72917 4.53153 0 6.33971 0 8.13076C0 10.3795 0.888595 12.1056 2.37667 12.7477C2.47657 12.791 2.57709 12.8129 2.67563 12.8129C2.98956 12.8129 3.2383 12.5954 3.32448 12.2466C3.3747 12.0465 3.4911 11.5529 3.5417 11.3386C3.65004 10.9154 3.56251 10.7118 3.32626 10.4171C2.89588 9.87809 2.69545 9.24065 2.69545 8.41107C2.69545 5.94694 4.42882 3.32807 7.64145 3.32807C10.1905 3.32807 11.774 4.86168 11.774 7.33037C11.774 8.88822 11.457 10.3309 10.8812 11.3929C10.4811 12.1308 9.77756 13.0105 8.69747 13.0105C8.2304 13.0105 7.81085 12.8074 7.5461 12.4533C7.29601 12.1186 7.21359 11.6862 7.31417 11.2356C7.4278 10.7264 7.58273 10.1953 7.73267 9.6819C8.00616 8.74415 8.26469 7.85847 8.26469 7.15183C8.26469 5.94316 7.56272 5.13104 6.51809 5.13104C5.19049 5.13104 4.15041 6.55838 4.15041 8.38051C4.15041 9.27415 4.37477 9.94253 4.47634 10.1992C4.3091 10.9493 3.31512 15.4087 3.12658 16.2497C3.01757 16.7405 2.36085 20.6177 3.44783 20.9269C4.66913 21.2743 5.76079 17.4981 5.87189 17.0714C5.96195 16.7244 6.27704 15.4122 6.47014 14.6055C7.0597 15.2067 8.00899 15.6131 8.93267 15.6131C10.674 15.6131 12.24 14.7836 13.3422 13.2776C14.4112 11.8169 15 9.78101 15 7.54519C15 5.79728 14.2909 4.07412 13.0546 2.81762Z"
+                    fill="#5A5A5A" />
+                </svg>
+                <span class="socials__info">
+                  <span class="socials__count">814</span>
+                  <span>followers</span>
+                </span>
+              </div>
+              <div class="socials__card">
+                <svg
+                  width="20"
+                  height="19"
+                  viewBox="0 0 20 19"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M0 5.71933C1.75987 4.29489 4.26211 1.16689 6.21375 1.16689C8.16305 1.16689 8.64182 3.50155 8.90775 5.61908C9.17718 7.73661 9.94295 12.369 10.9735 12.369C12.0064 12.369 14.3579 8.27113 14.2239 6.688C14.0921 5.10486 12.3887 5.34231 11.4524 5.7969C12.3135 2.63077 14.3016 0.947388 16.8438 0.947388C19.3871 0.947388 20 2.76902 20 5.00593C20 8.41069 13.1945 18.8421 9.08298 18.8421C6.53964 18.8421 5.90904 15.0413 5.39384 13.16C4.87734 11.2811 3.86334 6.35043 2.6776 6.03422C2.21757 5.95665 0.918894 7.00289 0.918894 7.00289L0 5.71933Z"
+                    fill="#5A5A5A" />
+                </svg>
+                <span class="socials__info">
+                  <span class="socials__count">165</span>
+                  <span>followers</span>
+                </span>
+              </div>
+              <div class="socials__card">
+                <svg
+                  width="20"
+                  height="21"
+                  viewBox="0 0 20 21"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M9.99972 0.444458C4.48587 0.444458 0 4.97604 0 10.5456C0 16.1152 4.48587 20.6465 9.99972 20.6465C15.5138 20.6465 20 16.1155 20 10.5456C20 4.97604 15.5138 0.444458 9.99972 0.444458ZM16.58 5.21193C17.7206 6.64175 18.4139 8.44752 18.4458 10.4152C18.0663 10.3364 16.4588 10.0333 14.538 10.0333C13.9182 10.0333 13.2659 10.0648 12.6119 10.1464C12.5566 10.0106 12.5014 9.87536 12.4434 9.7387C12.2738 9.33524 12.091 8.9349 11.9018 8.54052C14.8582 7.3086 16.2842 5.59895 16.58 5.21193ZM15.566 4.14503C14.0783 2.82635 12.1305 2.02568 9.99972 2.02568C9.34514 2.02568 8.70767 2.10195 8.09514 2.24541C8.43883 2.71436 9.8831 4.73448 11.2026 7.17393C14.0533 6.08462 15.3305 4.46995 15.566 4.14503ZM6.37082 2.85357C6.66209 3.2593 8.1086 5.30096 9.46204 7.72085C5.82978 8.68653 2.60428 8.74948 1.8258 8.74948H1.7431C2.30237 6.14275 4.04379 3.97661 6.37082 2.85357ZM1.55472 10.3483C1.55248 10.4183 1.55136 10.4886 1.55136 10.5589C1.55136 12.7256 2.35563 14.7052 3.6788 16.213C4.03594 15.6162 6.35681 11.9647 10.5794 10.5853C10.6722 10.5547 10.7656 10.5272 10.8603 10.4997C10.6588 10.0429 10.4421 9.58588 10.2145 9.13564C6.46417 10.2612 2.8249 10.3488 1.77646 10.3488C1.67975 10.3488 1.60518 10.3488 1.55472 10.3483ZM9.99972 19.0916C8.06207 19.0916 6.27383 18.4279 4.84694 17.3151C5.0883 16.8365 6.8401 13.6465 11.4675 12.0177C11.4703 12.0165 11.4734 12.0154 11.4768 12.0146C12.6371 15.0698 13.1285 17.634 13.2633 18.4287C12.2592 18.8557 11.1564 19.0916 9.99972 19.0916ZM13.1658 11.5958C14.2165 14.5269 14.6717 16.93 14.785 17.5875C16.6349 16.2983 17.9525 14.2842 18.334 11.9567C18.013 11.8575 16.6318 11.4665 14.866 11.4665C14.3283 11.4665 13.755 11.5031 13.1658 11.5958Z"
+                    fill="#5A5A5A" />
+                </svg>
+                <span class="socials__info">
+                  <span class="socials__count">6k</span>
+                  <span>followers</span>
+                </span>
+              </div>
+              <div class="socials__card">
+                <svg
+                  width="20"
+                  height="18"
+                  viewBox="0 0 20 18"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M20 2.62038C19.2644 2.95736 18.473 3.18527 17.6431 3.28706C18.4905 2.76263 19.1407 1.93285 19.4477 0.942477C18.6548 1.42834 17.7762 1.7808 16.842 1.97078C16.0935 1.14732 15.0271 0.63269 13.8462 0.63269C11.5805 0.63269 9.74295 2.53092 9.74295 4.87139C9.74295 5.20363 9.77937 5.527 9.84975 5.83742C6.43961 5.66072 3.41596 3.97333 1.39203 1.40811C1.03889 2.034 0.836317 2.76263 0.836317 3.53931C0.836317 5.00953 1.56125 6.30748 2.66165 7.0674C1.98935 7.04559 1.35622 6.85498 0.803268 6.53666C0.802962 6.55467 0.802962 6.57269 0.802962 6.59039C0.802962 8.64415 2.21794 10.3571 4.09468 10.7463C3.75073 10.8436 3.3875 10.8952 3.01386 10.8952C2.74886 10.8952 2.49212 10.8689 2.24181 10.8196C2.76385 12.5032 4.27889 13.7288 6.07485 13.7632C4.67028 14.9003 2.90125 15.5777 0.978304 15.5777C0.647817 15.5777 0.320389 15.5578 0 15.5183C1.81493 16.7214 3.97228 17.4228 6.28936 17.4228C13.8367 17.4228 17.9641 10.9641 17.9641 5.36231C17.9641 5.17865 17.9602 4.99563 17.9522 4.81418C18.7546 4.21673 19.4501 3.4704 20 2.62038Z"
+                    fill="#5A5A5A" />
+                </svg>
+                <span class="socials__info">
+                  <span class="socials__count">130k</span>
+                  <span>followers</span>
+                </span>
+              </div>
+              <div class="socials__card">
+                <svg
+                  width="20"
+                  height="15"
+                  viewBox="0 0 20 15"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M8.07247 6.84028C8.07247 6.84028 9.96213 6.69327 9.96213 4.3413C9.96213 1.99587 8.41658 0.845215 6.45439 0.845215H0V13.9792H6.45381C6.45381 13.9792 10.3964 14.1072 10.3964 10.0998C10.3967 10.0998 10.5658 6.84028 8.07247 6.84028ZM10.8855 9.23079C10.8855 9.20499 10.8917 4.18776 15.649 4.18776C20.6724 4.18776 19.966 9.88879 19.966 9.88879H13.5421C13.5421 12.3241 15.7216 12.1705 15.7216 12.1705C17.7862 12.1705 17.714 10.7582 17.714 10.7582H19.8934C19.8934 14.5097 15.649 14.2542 15.649 14.2542C10.5596 14.2542 10.8855 9.23079 10.8855 9.23079ZM15.6975 6.11141C13.7834 6.11141 13.5177 8.13111 13.5177 8.13111H17.5871C17.5871 8.13111 17.6174 6.11141 15.6975 6.11141ZM6.4541 3.17791H2.84389V6.11141H6.23066C6.81641 6.11141 7.32964 5.91311 7.32964 4.54551C7.32964 3.17791 6.4541 3.17791 6.4541 3.17791ZM6.27324 11.6465H2.84389V8.13111H6.4541C6.4541 8.13111 7.76447 8.11837 7.75831 9.93977C7.75831 11.474 6.78647 11.6337 6.27324 11.6465ZM12.9804 3.23572V1.61853H18.1004V3.23572H12.9804Z"
+                    fill="#5A5A5A" />
+                </svg>
+                <span class="socials__info">
+                  <span class="socials__count">37k</span>
+                  <span>followers</span>
+                </span>
+              </div>
+              <div class="socials__card">
+                <svg
+                  width="20"
+                  height="21"
+                  viewBox="0 0 20 21"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M6.25 0.151489H13.75C17.2013 0.151489 20 2.97851 20 6.46462V14.0404C20 17.5265 17.2013 20.3535 13.75 20.3535H6.25C2.79875 20.3535 0 17.5265 0 14.0404V6.46462C0 2.97851 2.79875 0.151489 6.25 0.151489ZM13.75 18.4596C16.1625 18.4596 18.125 16.4772 18.125 14.0404V6.46462C18.125 4.02775 16.1625 2.04543 13.75 2.04543H6.25C3.8375 2.04543 1.875 4.02775 1.875 6.46462V14.0404C1.875 16.4772 3.8375 18.4596 6.25 18.4596H13.75Z"
+                    fill="#666666" />
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M5 10.2525C5 7.46339 7.23875 5.20203 10 5.20203C12.7613 5.20203 15 7.46339 15 10.2525C15 13.0417 12.7613 15.303 10 15.303C7.23875 15.303 5 13.0417 5 10.2525ZM6.875 10.2525C6.875 11.9924 8.2775 13.4091 10 13.4091C11.7225 13.4091 13.125 11.9924 13.125 10.2525C13.125 8.51137 11.7225 7.09597 10 7.09597C8.2775 7.09597 6.875 8.51137 6.875 10.2525Z"
+                    fill="#5A5A5A" />
+                  <path
+                    d="M15 5.20196C15.5523 5.20196 16 4.74973 16 4.19186C16 3.634 15.5523 3.18176 15 3.18176C14.4477 3.18176 14 3.634 14 4.19186C14 4.74973 14.4477 5.20196 15 5.20196Z"
+                    fill="#5A5A5A" />
+                </svg>
+                <span class="socials__info">
+                  <span class="socials__count">854k</span>
+                  <span>followers</span>
+                </span>
+              </div>
+              <div class="socials__card">
+                <svg
+                  width="16"
+                  height="20"
+                  viewBox="0 0 16 20"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M5.049 7.66514H3.87867L3.87687 3.62421L2.40618 0.151489H3.67224L4.4178 2.73135L5.1528 0.158177H6.43251L5.05003 3.62186L5.049 7.66514ZM6.46582 2.96795C6.38223 3.25275 6.33989 3.64772 6.33989 4.15382H6.34009V5.54967C6.34009 6.01193 6.3623 6.35836 6.40927 6.58924C6.45548 6.81985 6.5321 7.01771 6.64204 7.18021C6.75018 7.34243 6.90246 7.46473 7.09909 7.54573C7.29497 7.6275 7.53346 7.66645 7.81575 7.66645C8.06921 7.66645 8.29294 7.62005 8.48854 7.52485C8.68262 7.43095 8.84263 7.28369 8.96649 7.08659C9.09195 6.88769 9.17292 6.67542 9.21037 6.44633C9.2483 6.21772 9.26789 5.85812 9.26789 5.36905V4.03565C9.26789 3.64951 9.24775 3.36237 9.20595 3.1725C9.16492 2.98498 9.08905 2.8016 8.97601 2.62332C8.86608 2.44558 8.70634 2.30191 8.50068 2.19098C8.29501 2.08082 8.04907 2.02435 7.76237 2.02435C7.42173 2.02435 7.14089 2.11074 6.92157 2.28385C6.70218 2.45565 6.54997 2.68392 6.46582 2.96795ZM10.0978 7.13119C10.1548 7.271 10.2439 7.38372 10.3654 7.46935C10.4844 7.5529 10.6377 7.59551 10.8206 7.59551C10.9809 7.59551 11.123 7.55215 11.2464 7.46266C11.37 7.37366 11.4743 7.24108 11.5589 7.06363L11.5377 7.5001H12.7777V2.22835H11.8015V6.33126C11.8015 6.55312 11.618 6.73498 11.3942 6.73498C11.172 6.73498 10.988 6.55312 10.988 6.33126V2.22835H9.96937V5.78387C9.96937 6.23688 9.97737 6.53891 9.99102 6.69217C10.0056 6.84432 10.0405 6.99007 10.0978 7.13119ZM16 16.8747V11.2145C16 9.85679 14.8222 8.74525 13.3822 8.74525H2.61806C1.17757 8.74525 0 9.85651 0 11.2145V16.8747C0 18.2323 1.1775 19.3434 2.61806 19.3434H13.3819C14.8222 19.3434 16 18.2326 16 16.8747ZM9.58114 12.8786C9.31458 12.8786 9.09574 13.0584 9.09574 13.2781V16.2537C9.09574 16.4735 9.31458 16.6523 9.58114 16.6523C9.84978 16.6523 10.0686 16.4735 10.0686 16.2537V13.2779C10.0686 13.0584 9.84978 12.8786 9.58114 12.8786ZM13.5344 14.1898H12.48L12.4851 13.578C12.4851 13.3058 12.7084 13.0837 12.9816 13.0837H13.0492C13.3226 13.0837 13.5468 13.3059 13.5468 13.578L13.5344 14.1898ZM3.33574 17.4892L3.33526 11.5269L4.66946 11.5274V10.6436L1.11254 10.6382V11.5065L2.223 11.5099V17.4892H3.33574ZM6.22319 12.4153H7.33545V17.4876L6.44231 17.4863L6.44437 16.829C6.20436 17.3442 5.24494 17.7587 4.74478 17.3978C4.5088 17.2293 4.48743 16.949 4.46748 16.6875L4.46748 16.6874L4.46747 16.6873L4.46747 16.6872C4.46467 16.6505 4.46189 16.6141 4.45856 16.5785C4.44897 16.4714 4.45057 16.2806 4.45271 16.0265C4.45385 15.8913 4.45514 15.7381 4.45497 15.5701L4.45083 12.415H5.55716L5.56233 15.6207C5.56252 15.7872 5.5592 15.9272 5.55649 16.0414C5.55208 16.2277 5.54929 16.3455 5.56592 16.398C5.72413 16.8801 6.13084 16.618 6.22167 16.3711C6.23922 16.3223 6.23616 16.2192 6.23097 16.044C6.22754 15.9287 6.22319 15.782 6.22319 15.5991V12.4153ZM10.8947 16.061L10.8927 13.411C10.8916 12.4008 10.136 11.7959 9.1094 12.6131L9.11402 10.6428L8.00252 10.6446L7.99707 17.4448L8.9109 17.4313L8.99401 17.0075C10.1623 18.0796 10.8967 17.3455 10.8947 16.061ZM13.5424 15.7144L14.377 15.71C14.7571 17.9692 11.5657 18.3404 11.565 15.7139V14.1339C11.565 13.6597 11.6119 13.287 11.7066 13.0138C11.801 12.7403 11.9624 12.5371 12.174 12.3851C12.848 11.8989 14.1817 12.0495 14.3182 12.9996C14.3616 13.2999 14.3752 13.8249 14.3752 14.3498V15.0685H12.465V15.7289V16.2412V16.2927C12.465 16.5417 12.6707 16.7445 12.9212 16.7445H13.0846C13.3347 16.7445 13.5404 16.5417 13.5404 16.2927V15.8274C13.5406 15.8095 13.541 15.7922 13.5414 15.7758C13.5419 15.7539 13.5424 15.7334 13.5424 15.7144ZM7.31069 6.24819C7.31069 6.54636 7.53339 6.79014 7.80409 6.79014C8.0748 6.79014 8.29598 6.54664 8.29598 6.24819V3.44158C8.29598 3.14341 8.0748 2.89963 7.80409 2.89963C7.53339 2.89963 7.31069 3.14313 7.31069 3.44158V6.24819Z"
+                    fill="#5A5A5A" />
+                </svg>
+                <span class="socials__info">
+                  <span class="socials__count">52k</span>
+                  <span>subscribers</span>
+                </span>
+              </div>
+              <div class="socials__card">
+                <svg
+                  width="22"
+                  height="15"
+                  viewBox="0 0 22 15"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M0.0040739 7.31966C-0.125839 3.84433 2.8702 0.632711 6.29412 0.591044C8.0392 0.439816 9.73697 1.12835 11.0576 2.25134C10.5159 2.85655 9.96467 3.45476 9.37591 4.01479C8.21328 3.29712 6.81349 2.75019 5.4547 3.23593C3.26309 3.86998 1.93585 6.49912 2.74688 8.6775C3.41853 10.9526 6.14212 12.2012 8.27666 11.2455C9.38193 10.8434 10.1106 9.8072 10.4304 8.69382C9.16368 8.66818 7.89667 8.68421 6.62994 8.64866C6.62679 7.8829 6.62363 7.12006 6.62679 6.35431C8.73924 6.3511 10.8549 6.34469 12.9705 6.36392C13.1004 8.24014 12.8279 10.2481 11.6274 11.7539C9.9836 13.9035 6.94655 14.5343 4.4759 13.691C1.85383 12.816 -0.0529962 10.1321 0.0040739 7.31966Z"
+                    fill="#5A5A5A" />
+                  <path
+                    d="M18.0102 3.68152C18.6703 3.68152 19.33 3.68152 19.9932 3.68152C19.9968 4.36954 20.0031 5.061 20.0067 5.74871C20.6699 5.75559 21.3366 5.75904 22 5.76248C22 6.4505 22 7.13476 22 7.82278C21.3369 7.82622 20.6702 7.82967 20.0067 7.83311C20.0001 8.52457 19.9968 9.21228 19.9932 9.90374C19.33 9.9003 18.6663 9.90374 18.0065 9.90374C18.0002 9.21228 18.0002 8.52457 17.9933 7.83655C17.3301 7.82935 16.6634 7.82622 16 7.82247C16 7.13445 16 6.45019 16 5.76217C16.6634 5.75872 17.3268 5.75528 17.9933 5.74839C17.9966 5.061 18.0032 4.36954 18.0102 3.68152Z"
+                    fill="#5A5A5A" />
+                </svg>
+                <span class="socials__info">
+                  <span class="socials__count">642</span>
+                  <span>followers</span>
+                </span>
+              </div>
+            </div>
+          </section>
+          <section class="tags">
+            <h2 class="sidebar__title">Tags</h2>
+            <div class="tags__wrapper">
+              <a href="#" class="tags__item">Business</a>
+              <a href="#" class="tags__item">Freelance</a>
+              <a href="#" class="tags__item">Money</a>
+              <a href="#" class="tags__item">Experience</a>
+              <a href="#" class="tags__item">Lifestyle</a>
+              <a href="#" class="tags__item">SEO</a>
+              <a href="#" class="tags__item">Wordpress</a>
+              <a href="#" class="tags__item">Marketing</a>
+              <a href="#" class="tags__item">UX</a>
+              <a href="#" class="tags__item">Modern</a>
+              <a href="#" class="tags__item">Success</a>
+              <a href="#" class="tags__item">Nature</a>
+            </div>
+          </section>
+        </aside>
+      </section>
+      <section class="instagram">
+        <h2 class="instagram__title">
+          Follow our <a class="instagram_link">@instagram_name</a>
+        </h2>
+        <div class="instagram_content">
+          <img
+            class="instagram__photo"
+            src="imgs/picturest_insta/Bitmap1.jpg"
+            alt="Instagram photo" />
+          <img
+            class="instagram__photo"
+            src="imgs/picturest_insta/Bitmap (2).jpg"
+            alt="Instagram photo" />
+          <img
+            class="instagram__photo"
+            src="imgs/picturest_insta/Bitmap (3).jpg"
+            alt="Instagram photo" />
+          <img
+            class="instagram__photo"
+            src="imgs/picturest_insta/Bitmap (4).jpg"
+            alt="Instagram photo" />
+          <img
+            class="instagram__photo"
+            src="imgs/picturest_insta/Bitmap (5).jpg"
+            alt="Instagram photo" />
+          <img
+            class="instagram__photo"
+            src="imgs/picturest_insta/Bitmap (6).jpg"
+            alt="Instagram photo" />
+        </div>
+      </section>
+    </main>
+    <footer class="page-footer container">
+      <a class="page-footer__logo logo"
+        ><span class="visually-hidden">Fashion</span>
+        <svg
+          width="128"
+          height="32"
+          viewBox="0 0 128 32"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg">
+          <rect opacity="0.35" y="22" width="125" height="6" fill="#C9A96E" />
+          <path
+            d="M6.05 23.325C6.81667 23.425 7.54167 23.6667 8.225 24.05V25H0.5V24.05C0.766667 23.9 1.05 23.7667 1.35 23.65C1.65 23.5167 1.96667 23.4083 2.3 23.325V9.175C1.91667 9.09167 1.575 8.98333 1.275 8.85C0.991667 8.71667 0.733333 8.58333 0.5 8.45V7.5H13.575C13.575 7.83333 13.5583 8.2 13.525 8.6C13.4917 8.98333 13.45 9.38333 13.4 9.8C13.3667 10.2 13.3167 10.6 13.25 11C13.2 11.3833 13.1417 11.7417 13.075 12.075H12.05L10.9 9.125H6.05V15.7H9.625L10.6 13.975H11.375C11.4917 14.825 11.5417 15.7 11.525 16.6C11.5083 17.5 11.4583 18.325 11.375 19.075H10.6L9.625 17.325H6.05V23.325ZM20.6623 25H14.4873V24.05C14.754 23.8833 15.0373 23.7417 15.3373 23.625C15.654 23.4917 15.9623 23.3917 16.2623 23.325L22.7123 7.2H24.5623L30.8373 23.325C31.1706 23.3917 31.504 23.4917 31.8373 23.625C32.1706 23.7417 32.4623 23.8833 32.7123 24.05V25H24.8873V24.05C25.204 23.9 25.5456 23.7583 25.9123 23.625C26.279 23.4917 26.629 23.3917 26.9623 23.325L25.5123 19.35H19.9623L18.4873 23.325C19.254 23.425 19.979 23.6667 20.6623 24.05V25ZM20.5623 17.725H24.9873L23.3623 12.95L22.8873 10.8H22.8373L22.2873 13L20.5623 17.725ZM39.1252 22.925C39.3085 23.1083 39.5669 23.2833 39.9002 23.45C40.2335 23.6 40.6752 23.675 41.2252 23.675C42.1419 23.675 42.9002 23.4417 43.5002 22.975C44.1169 22.4917 44.4252 21.825 44.4252 20.975C44.4252 20.3583 44.2252 19.8417 43.8252 19.425C43.4419 19.0083 42.9502 18.625 42.3502 18.275C41.7502 17.925 41.1085 17.5833 40.4252 17.25C39.7419 16.9 39.1002 16.4917 38.5002 16.025C37.9002 15.5583 37.4002 15.0083 37.0002 14.375C36.6169 13.725 36.4252 12.925 36.4252 11.975C36.4252 11.1583 36.5752 10.45 36.8752 9.85C37.1752 9.25 37.5835 8.75833 38.1002 8.375C38.6335 7.975 39.2585 7.68333 39.9752 7.5C40.6919 7.3 41.4669 7.2 42.3002 7.2C43.3169 7.2 44.2585 7.275 45.1252 7.425C46.0085 7.55833 46.8002 7.775 47.5002 8.075C47.4835 8.40833 47.4502 8.79167 47.4002 9.225C47.3669 9.65833 47.3169 10.0917 47.2502 10.525C47.1835 10.9417 47.1085 11.3417 47.0252 11.725C46.9585 12.0917 46.8919 12.4 46.8252 12.65H45.8002L44.6502 9.225C44.4502 9.125 44.1502 9.03333 43.7502 8.95C43.3669 8.86667 42.9669 8.825 42.5502 8.825C41.8502 8.825 41.2585 9.00833 40.7752 9.375C40.2919 9.74167 40.0502 10.275 40.0502 10.975C40.0502 11.6083 40.2502 12.15 40.6502 12.6C41.0502 13.0333 41.5502 13.4333 42.1502 13.8C42.7502 14.1667 43.4002 14.5333 44.1002 14.9C44.8169 15.25 45.4752 15.6583 46.0752 16.125C46.6752 16.5917 47.1752 17.1417 47.5752 17.775C47.9752 18.3917 48.1752 19.1583 48.1752 20.075C48.1752 21.7417 47.6085 23.0333 46.4752 23.95C45.3585 24.85 43.7085 25.3 41.5252 25.3C40.9919 25.3 40.4502 25.2667 39.9002 25.2C39.3669 25.1333 38.8585 25.0417 38.3752 24.925C37.8919 24.8083 37.4585 24.6833 37.0752 24.55C36.7085 24.4167 36.4335 24.275 36.2502 24.125C36.2669 23.7417 36.3085 23.3333 36.3752 22.9C36.4419 22.45 36.5085 22.0083 36.5752 21.575C36.6585 21.125 36.7419 20.7 36.8252 20.3C36.9085 19.9 36.9919 19.55 37.0752 19.25H38.1002L39.1252 22.925ZM59.7156 25H52.1406V24.05C52.424 23.9 52.749 23.7583 53.1156 23.625C53.499 23.4917 53.8573 23.3917 54.1906 23.325V9.175C53.7906 9.10833 53.4073 9.00833 53.0406 8.875C52.674 8.74167 52.374 8.6 52.1406 8.45V7.5H59.7156V8.45C59.4656 8.61667 59.1823 8.76667 58.8656 8.9C58.5656 9.03333 58.2573 9.125 57.9406 9.175V15.225H64.5656V9.175C64.199 9.10833 63.8656 9.00833 63.5656 8.875C63.2823 8.74167 63.024 8.6 62.7906 8.45V7.5H70.3656V8.45C70.0823 8.63333 69.7573 8.78333 69.3906 8.9C69.024 9.01667 68.6656 9.10833 68.3156 9.175V23.325C68.699 23.3917 69.0656 23.4917 69.4156 23.625C69.7823 23.7583 70.099 23.9 70.3656 24.05V25H62.7906V24.05C63.0406 23.9 63.3156 23.7583 63.6156 23.625C63.9156 23.4917 64.2323 23.3917 64.5656 23.325V16.85H57.9406V23.325C58.274 23.3917 58.5823 23.4833 58.8656 23.6C59.149 23.7167 59.4323 23.8667 59.7156 24.05V25ZM81.9045 25H74.1045V24.05C74.7712 23.6833 75.4462 23.4417 76.1295 23.325V9.175C75.7962 9.125 75.4462 9.03333 75.0795 8.9C74.7128 8.76667 74.3878 8.61667 74.1045 8.45V7.5H81.9045V8.45C81.6045 8.63333 81.2712 8.79167 80.9045 8.925C80.5545 9.04167 80.2128 9.125 79.8795 9.175V23.325C80.2128 23.3917 80.5545 23.4833 80.9045 23.6C81.2712 23.7167 81.6045 23.8667 81.9045 24.05V25ZM86.1313 16.25C86.1313 14.95 86.3146 13.75 86.6813 12.65C87.0479 11.5333 87.5896 10.575 88.3063 9.775C89.0229 8.95833 89.9063 8.325 90.9563 7.875C92.0063 7.425 93.2146 7.2 94.5813 7.2C95.9479 7.2 97.1563 7.425 98.2063 7.875C99.2563 8.325 100.131 8.95833 100.831 9.775C101.548 10.575 102.09 11.5333 102.456 12.65C102.823 13.75 103.006 14.95 103.006 16.25C103.006 17.55 102.823 18.7583 102.456 19.875C102.09 20.975 101.548 21.9333 100.831 22.75C100.131 23.55 99.2563 24.175 98.2063 24.625C97.1563 25.075 95.9479 25.3 94.5813 25.3C93.2146 25.3 92.0063 25.075 90.9563 24.625C89.9063 24.175 89.0229 23.55 88.3063 22.75C87.5896 21.9333 87.0479 20.975 86.6813 19.875C86.3146 18.7583 86.1313 17.55 86.1313 16.25ZM90.3813 16.25C90.3813 17.3167 90.4646 18.3083 90.6313 19.225C90.7979 20.125 91.0563 20.9083 91.4062 21.575C91.7729 22.225 92.2313 22.7417 92.7813 23.125C93.3479 23.4917 94.0229 23.675 94.8063 23.675C95.5229 23.675 96.1313 23.4917 96.6313 23.125C97.1313 22.7417 97.5396 22.225 97.8563 21.575C98.1729 20.9083 98.3979 20.125 98.5313 19.225C98.6813 18.3083 98.7563 17.3167 98.7563 16.25C98.7563 15.1833 98.6729 14.2 98.5063 13.3C98.3563 12.3833 98.1063 11.6 97.7563 10.95C97.4229 10.2833 96.9729 9.76667 96.4063 9.4C95.8563 9.01667 95.1813 8.825 94.3813 8.825C93.6146 8.825 92.9729 9.01667 92.4563 9.4C91.9396 9.76667 91.5229 10.2833 91.2063 10.95C90.9063 11.6 90.6896 12.3833 90.5563 13.3C90.4396 14.2 90.3813 15.1833 90.3813 16.25ZM118.754 7.5H124.954V8.45C124.637 8.7 124.287 8.925 123.904 9.125C123.521 9.30833 123.162 9.45 122.829 9.55V25.3H120.704L111.879 12.55L110.879 10.625H110.804L111.029 12.625V23.05C111.362 23.1333 111.729 23.275 112.129 23.475C112.546 23.6583 112.896 23.85 113.179 24.05V25H107.004V24.05C107.304 23.85 107.629 23.6667 107.979 23.5C108.346 23.3167 108.721 23.1667 109.104 23.05V9.4C108.771 9.26667 108.437 9.11667 108.104 8.95C107.771 8.78333 107.471 8.60833 107.204 8.425V7.5H112.604L119.779 17.9L120.929 20.05H121.029L120.904 17.9V9.55C120.504 9.41667 120.112 9.25833 119.729 9.075C119.362 8.875 119.037 8.66667 118.754 8.45V7.5Z"
+            fill="#171717" />
+        </svg>
+      </a>
+      <nav class="page-footer__nav">
+        <ul class="page-footer__menu">
+          <li><a class="page-footer__menu-link" href="#">Home</a></li>
+          <li><a class="page-footer__menu-link" href="#">Recipes</a></li>
+          <li><a class="page-footer__menu-link" href="#">Article</a></li>
+          <li><a class="page-footer__menu-link" href="#">Contact</a></li>
+          <li><a class="page-footer__menu-link" href="#">Purchase</a></li>
+        </ul>
+        <ul class="page-footer__socials">
+          <li class="page-footer__socials-item">
+            <a class="page-footer__socials-link" href="#">
+              <svg
+                width="9"
+                height="16"
+                viewBox="0 0 11 20"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M10.5858 0.00416134L7.94737 0C4.98322 0 3.06766 1.9319 3.06766 4.92203V7.19141H0.414863C0.18563 7.19141 0 7.37409 0 7.59943V10.8875C0 11.1128 0.185842 11.2953 0.414863 11.2953H3.06766V19.5922C3.06766 19.8175 3.25329 20 3.48252 20H6.94366C7.17289 20 7.35852 19.8173 7.35852 19.5922V11.2953H10.4603C10.6895 11.2953 10.8751 11.1128 10.8751 10.8875L10.8764 7.59943C10.8764 7.49124 10.8326 7.38762 10.7549 7.31105C10.6772 7.23448 10.5714 7.19141 10.4613 7.19141H7.35852V5.26763C7.35852 4.34298 7.58267 3.87358 8.808 3.87358L10.5853 3.87295C10.8144 3.87295 11 3.69027 11 3.46514V0.411972C11 0.187052 10.8146 0.00457747 10.5858 0.00416134Z"
+                  fill="#5A5A5A" />
+              </svg>
+              <span class="visually-hidden">Facebook</span>
+            </a>
+          </li>
+          <li class="page-footer__socials-item">
+            <a class="page-footer__socials-link" href="#">
+              <svg
+                width="16"
+                height="13"
+                viewBox="0 0 20 18"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M20 2.62038C19.2644 2.95736 18.473 3.18527 17.6431 3.28706C18.4905 2.76263 19.1407 1.93285 19.4477 0.942477C18.6548 1.42834 17.7762 1.7808 16.842 1.97078C16.0935 1.14732 15.0271 0.63269 13.8462 0.63269C11.5805 0.63269 9.74295 2.53092 9.74295 4.87139C9.74295 5.20363 9.77937 5.527 9.84975 5.83742C6.43961 5.66072 3.41596 3.97333 1.39203 1.40811C1.03889 2.034 0.836317 2.76263 0.836317 3.53931C0.836317 5.00953 1.56125 6.30748 2.66165 7.0674C1.98935 7.04559 1.35622 6.85498 0.803268 6.53666C0.802962 6.55467 0.802962 6.57269 0.802962 6.59039C0.802962 8.64415 2.21794 10.3571 4.09468 10.7463C3.75073 10.8436 3.3875 10.8952 3.01386 10.8952C2.74886 10.8952 2.49212 10.8689 2.24181 10.8196C2.76385 12.5032 4.27889 13.7288 6.07485 13.7632C4.67028 14.9003 2.90125 15.5777 0.978304 15.5777C0.647817 15.5777 0.320389 15.5578 0 15.5183C1.81493 16.7214 3.97228 17.4228 6.28936 17.4228C13.8367 17.4228 17.9641 10.9641 17.9641 5.36231C17.9641 5.17865 17.9602 4.99563 17.9522 4.81418C18.7546 4.21673 19.4501 3.4704 20 2.62038Z"
+                  fill="#5A5A5A" />
+              </svg>
+              <span class="visually-hidden">Twitter</span>
+            </a>
+          </li>
+          <li class="page-footer__socials-item">
+            <a class="page-footer__socials-link" href="#">
+              <svg
+                width="13"
+                height="16"
+                viewBox="0 0 15 21"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M13.0546 2.81762C11.741 1.48267 9.92295 0.747437 7.93556 0.747437C4.89971 0.747437 3.03253 2.06473 2.00076 3.16973C0.72917 4.53153 0 6.33971 0 8.13076C0 10.3795 0.888595 12.1056 2.37667 12.7477C2.47657 12.791 2.57709 12.8129 2.67563 12.8129C2.98956 12.8129 3.2383 12.5954 3.32448 12.2466C3.3747 12.0465 3.4911 11.5529 3.5417 11.3386C3.65004 10.9154 3.56251 10.7118 3.32626 10.4171C2.89588 9.87809 2.69545 9.24065 2.69545 8.41107C2.69545 5.94694 4.42882 3.32807 7.64145 3.32807C10.1905 3.32807 11.774 4.86168 11.774 7.33037C11.774 8.88822 11.457 10.3309 10.8812 11.3929C10.4811 12.1308 9.77756 13.0105 8.69747 13.0105C8.2304 13.0105 7.81085 12.8074 7.5461 12.4533C7.29601 12.1186 7.21359 11.6862 7.31417 11.2356C7.4278 10.7264 7.58273 10.1953 7.73267 9.6819C8.00616 8.74415 8.26469 7.85847 8.26469 7.15183C8.26469 5.94316 7.56272 5.13104 6.51809 5.13104C5.19049 5.13104 4.15041 6.55838 4.15041 8.38051C4.15041 9.27415 4.37477 9.94253 4.47634 10.1992C4.3091 10.9493 3.31512 15.4087 3.12658 16.2497C3.01757 16.7405 2.36085 20.6177 3.44783 20.9269C4.66913 21.2743 5.76079 17.4981 5.87189 17.0714C5.96195 16.7244 6.27704 15.4122 6.47014 14.6055C7.0597 15.2067 8.00899 15.6131 8.93267 15.6131C10.674 15.6131 12.24 14.7836 13.3422 13.2776C14.4112 11.8169 15 9.78101 15 7.54519C15 5.79728 14.2909 4.07412 13.0546 2.81762Z"
+                  fill="#5A5A5A" />
+              </svg>
+              <span class="visually-hidden">Pinterest</span>
+            </a>
+          </li>
+          <li class="page-footer__socials-item">
+            <a class="page-footer__socials-link" href="#">
+              <svg
+                width="20"
+                height="13"
+                viewBox="0 0 22 15"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M0.0040739 7.31966C-0.125839 3.84433 2.8702 0.632711 6.29412 0.591044C8.0392 0.439816 9.73697 1.12835 11.0576 2.25134C10.5159 2.85655 9.96467 3.45476 9.37591 4.01479C8.21328 3.29712 6.81349 2.75019 5.4547 3.23593C3.26309 3.86998 1.93585 6.49912 2.74688 8.6775C3.41853 10.9526 6.14212 12.2012 8.27666 11.2455C9.38193 10.8434 10.1106 9.8072 10.4304 8.69382C9.16368 8.66818 7.89667 8.68421 6.62994 8.64866C6.62679 7.8829 6.62363 7.12006 6.62679 6.35431C8.73924 6.3511 10.8549 6.34469 12.9705 6.36392C13.1004 8.24014 12.8279 10.2481 11.6274 11.7539C9.9836 13.9035 6.94655 14.5343 4.4759 13.691C1.85383 12.816 -0.0529962 10.1321 0.0040739 7.31966Z"
+                  fill="#5A5A5A" />
+                <path
+                  d="M18.0102 3.68152C18.6703 3.68152 19.33 3.68152 19.9932 3.68152C19.9968 4.36954 20.0031 5.061 20.0067 5.74871C20.6699 5.75559 21.3366 5.75904 22 5.76248C22 6.4505 22 7.13476 22 7.82278C21.3369 7.82622 20.6702 7.82967 20.0067 7.83311C20.0001 8.52457 19.9968 9.21228 19.9932 9.90374C19.33 9.9003 18.6663 9.90374 18.0065 9.90374C18.0002 9.21228 18.0002 8.52457 17.9933 7.83655C17.3301 7.82935 16.6634 7.82622 16 7.82247C16 7.13445 16 6.45019 16 5.76217C16.6634 5.75872 17.3268 5.75528 17.9933 5.74839C17.9966 5.061 18.0032 4.36954 18.0102 3.68152Z"
+                  fill="#5A5A5A" />
+              </svg>
+              <span class="visually-hidden">Google</span>
+            </a>
+          </li>
+          <li class="page-footer__socials-item">
+            <a class="page-footer__socials-link" href="#">
+              <svg
+                width="19"
+                height="11"
+                viewBox="0 0 20 15"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M8.07247 6.84028C8.07247 6.84028 9.96213 6.69327 9.96213 4.3413C9.96213 1.99587 8.41658 0.845215 6.45439 0.845215H0V13.9792H6.45381C6.45381 13.9792 10.3964 14.1072 10.3964 10.0998C10.3967 10.0998 10.5658 6.84028 8.07247 6.84028ZM10.8855 9.23079C10.8855 9.20499 10.8917 4.18776 15.649 4.18776C20.6724 4.18776 19.966 9.88879 19.966 9.88879H13.5421C13.5421 12.3241 15.7216 12.1705 15.7216 12.1705C17.7862 12.1705 17.714 10.7582 17.714 10.7582H19.8934C19.8934 14.5097 15.649 14.2542 15.649 14.2542C10.5596 14.2542 10.8855 9.23079 10.8855 9.23079ZM15.6975 6.11141C13.7834 6.11141 13.5177 8.13111 13.5177 8.13111H17.5871C17.5871 8.13111 17.6174 6.11141 15.6975 6.11141ZM6.4541 3.17791H2.84389V6.11141H6.23066C6.81641 6.11141 7.32964 5.91311 7.32964 4.54551C7.32964 3.17791 6.4541 3.17791 6.4541 3.17791ZM6.27324 11.6465H2.84389V8.13111H6.4541C6.4541 8.13111 7.76447 8.11837 7.75831 9.93977C7.75831 11.474 6.78647 11.6337 6.27324 11.6465ZM12.9804 3.23572V1.61853H18.1004V3.23572H12.9804Z"
+                  fill="#5A5A5A" />
+              </svg>
+              <span class="visually-hidden">Be</span>
+            </a>
+          </li>
+          <li class="page-footer__socials-item">
+            <a class="page-footer__socials-link" href="#">
+              <svg
+                width="17"
+                height="17"
+                viewBox="0 0 20 21"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M6.25 0.151489H13.75C17.2013 0.151489 20 2.97851 20 6.46462V14.0404C20 17.5265 17.2013 20.3535 13.75 20.3535H6.25C2.79875 20.3535 0 17.5265 0 14.0404V6.46462C0 2.97851 2.79875 0.151489 6.25 0.151489ZM13.75 18.4596C16.1625 18.4596 18.125 16.4772 18.125 14.0404V6.46462C18.125 4.02775 16.1625 2.04543 13.75 2.04543H6.25C3.8375 2.04543 1.875 4.02775 1.875 6.46462V14.0404C1.875 16.4772 3.8375 18.4596 6.25 18.4596H13.75Z"
+                  fill="#666666" />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M5 10.2525C5 7.46339 7.23875 5.20203 10 5.20203C12.7613 5.20203 15 7.46339 15 10.2525C15 13.0417 12.7613 15.303 10 15.303C7.23875 15.303 5 13.0417 5 10.2525ZM6.875 10.2525C6.875 11.9924 8.2775 13.4091 10 13.4091C11.7225 13.4091 13.125 11.9924 13.125 10.2525C13.125 8.51137 11.7225 7.09597 10 7.09597C8.2775 7.09597 6.875 8.51137 6.875 10.2525Z"
+                  fill="#5A5A5A" />
+                <path
+                  d="M15 5.20196C15.5523 5.20196 16 4.74973 16 4.19186C16 3.634 15.5523 3.18176 15 3.18176C14.4477 3.18176 14 3.634 14 4.19186C14 4.74973 14.4477 5.20196 15 5.20196Z"
+                  fill="#5A5A5A" />
+              </svg>
+              <span class="visually-hidden">Instagram</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <p class="page-footer__copyright">@2019 Logwork. All Right Reserved.</p>
+    </footer>
+  </body>
+</html>
