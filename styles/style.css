@@ -1,6 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 
+:root {
+  --mobile-width: 767px;
+  --tablet-width: 1023px;
+  --small-desktop-width: 1919px;
+}
+@media (max-width: 767px) {
+}
+@media (max-width: 1023px) {
+}
+@media (max-width: 1919px) {
+}
+/* остальное по умолчаниб без медиа выражения под 1920 */
+/* 1920 - 1536 - 1280 - 1024 - 768 - 640 */
+
 *,
 *::after,
 *::before {
@@ -25,6 +39,13 @@
   margin: 0 auto;
 }
 
+@media (max-width: 1024px) {
+  .container {
+    width: 100%;
+    padding: 0 15px;
+  }
+}
+
 body {
   font-family: "PT Sans", "Arial", serif;
   font-weight: 400;
@@ -40,6 +61,7 @@ body {
 }
 
 .page-header__menu {
+  font-family: "PT Serif", "Georgia", serif;
   display: flex;
   flex-direction: row;
   list-style: none;
@@ -66,6 +88,12 @@ body {
   background-image: url(../imgs/pictures_left/firstscreen.jpg);
   padding-bottom: 50px;
   color: white;
+}
+
+@media (max-width: 1919px) {
+  .promo {
+    min-height: 400px;
+  }
 }
 
 .promo__title {
@@ -105,6 +133,12 @@ body {
   grid-template-columns: 770px 270px;
   justify-content: space-between;
   margin-top: 50px;
+}
+@media (max-width: 1024px) {
+  .content {
+    gap: 20px;
+    grid-template-columns: 2fr 1fr;
+  }
 }
 
 .content__left {
@@ -177,6 +211,10 @@ body {
   margin-top: 5px;
   margin-bottom: 10px;
   padding: 0 45px;
+}
+
+.card__img {
+  width: 100%;
 }
 
 .card__author span {
@@ -314,7 +352,10 @@ body {
   color: #666666;
   padding: 15px 0;
 }
-
+.featured__cards {
+  display: grid;
+  gap: 20px;
+}
 .featured__type {
   font-family: "PT Sans", "Arial", serif;
   font-size: 12px;
@@ -384,6 +425,7 @@ body {
   margin-top: 50px;
   flex-direction: row;
   gap: 25px;
+  overflow-x: scroll;
 }
 
 .page-footer {
