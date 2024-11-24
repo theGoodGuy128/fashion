@@ -608,6 +608,12 @@ body {
   margin-bottom: 30px;
 }
 
+@media (max-width: 767px) {
+  .page-footer__menu {
+    gap: 10px;
+  }
+}
+
 .page-footer__menu-link {
   list-style: none;
   gap: 5px;
