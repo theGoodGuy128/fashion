@@ -250,9 +250,6 @@ body {
   padding-bottom: 50px;
 }
 
-.content__right {
-}
-
 .content__wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr;
