@@ -74,6 +74,14 @@ body {
   margin: 0;
 }
 
+.link {
+  color: black;
+}
+
+.link:hover {
+  color: #c9a96e;
+}
+
 @media (max-width: 767px) {
   .page-header__menu {
     display: flex;
@@ -185,6 +193,11 @@ body {
   margin-bottom: 13px;
 }
 
+.promo__title a {
+  text-decoration: none;
+  color: inherit;
+}
+
 @media (max-width: 767px) {
   .promo__title {
     font-size: 35px;
@@ -254,10 +267,18 @@ body {
 }
 
 .about {
+  text-align: center;
+}
+
+.about__card {
   display: flex;
   align-items: center;
   flex-direction: column;
-  text-align: center;
+  box-shadow: 1px 9px 11px -4px rgba(34, 60, 80, 0.6);
+}
+.about__author {
+  margin-top: 15px;
+  margin-bottom: 5px;
 }
 
 .about__more {
@@ -265,6 +286,22 @@ body {
   color: #c9a96e;
   text-transform: uppercase;
   text-decoration: none;
+  padding: 15px 0;
+  width: 100%;
+  position: relative;
+}
+.about__more:before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: #e5e5e5;
+  position: absolute;
+  top: 0;
+}
+
+.about__more:hover {
+  opacity: 0.7;
 }
 
 .about__prof {
@@ -306,6 +343,11 @@ body {
   margin-top: 5px;
   margin-bottom: 10px;
   padding: 0 45px;
+}
+
+.card__title a {
+  color: inherit;
+  text-decoration: none;
 }
 
 .card__img {
@@ -479,6 +521,11 @@ body {
   align-items: center;
   padding: 20px 10px;
   background-color: #f8f9fa;
+  text-decoration: none;
+}
+
+.socials__card:hover {
+  background-color: #eceeef;
 }
 
 .socials__info {
@@ -510,6 +557,15 @@ body {
 }
 .instagram {
   padding-bottom: 70px;
+
+  padding-bottom: 50px;
+  margin-top: 40px;
+}
+@media (max-width: 767px) {
+  .instagram {
+    padding-bottom: 50px;
+    margin-top: 40px;
+  }
 }
 .instagram__title {
   font-family: "PT Serif", "Georgia", serif;
@@ -519,7 +575,7 @@ body {
   font-weight: normal;
 }
 
-.instagram_content {
+.instagram__content {
   display: flex;
   margin: 0 auto;
   margin-top: 50px;
@@ -527,14 +583,26 @@ body {
   gap: 25px;
   overflow-x: scroll;
 }
+@media (max-width: 767px) {
+  .instagram__content {
+    margin-top: 30px;
+  }
+}
 
 .page-footer {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
 .page-footer__nav {
   margin: 50px auto 30px;
+}
+
+@media (max-width: 767px) {
+  .page-footer__nav {
+    margin-top: 20px;
+  }
 }
 .page-footer__menu {
   display: flex;
@@ -556,6 +624,10 @@ body {
   text-decoration: none;
 }
 
+.page-footer__menu-link:hover {
+  color: #c9a96e;
+}
+
 .page-footer__socials {
   display: flex;
   flex-direction: row;
@@ -574,6 +646,15 @@ body {
   border-radius: 50%;
   justify-content: center;
   align-items: center;
+}
+
+.page-footer__socials-link:hover {
+  background-color: #c9a96e;
+  border-color: #c9a96e;
+}
+
+.page-footer__socials-link:hover path {
+  fill: #ffffff;
 }
 
 .page-footer__copyright {
